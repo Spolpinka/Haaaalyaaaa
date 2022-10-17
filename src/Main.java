@@ -8,7 +8,15 @@ public class Main {
     private static Queue<String> queue1 = new LinkedList<>();
     private static Queue<String> queue2 = new LinkedList<>();
     private static final int MAX_NUMB = 5;
+
+
     public static void main(String[] args) {
+        queue1.add("произвольный хуман 1");
+        queue1.add("произвольный хуман 2");
+        queue1.add("произвольный хуман 3");
+        queue2.add("произвольный хуман 1");
+        queue2.add("произвольный хуман 2");
+
         for (int i = 0; i < 12; i++) {
             addPerson("Person " + i);
         }
